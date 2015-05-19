@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>7ED15F48-8D16-4DFE-A063-3FDFEC59FA4A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>06D67D3F-CE89-4E7F-B99F-C0EA59CDF9EF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>html Boilerplate</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>&lt;!DOCTYPE html&gt;
+&lt;title&gt;XXX&lt;/title&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;!-- upkeep--&gt;
+&lt;meta name="keywords" content=""&gt;
+&lt;meta name="description" content=""&gt;
+&lt;!-- CEO upkeep--&gt;
+&lt;link rel="shortcut icon" href="http://griffinbyron.com/img/favicon.ico"&gt;
+&lt;link rel="stylesheet" href="css/styles.css"&gt;
+&lt;!--[if lt IE 9]&gt;
+&lt;script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;script src="js/behavior.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;header role="banner"&gt;
+        &lt;h1&gt;xxx&lt;/h1&gt;
+    &lt;/header&gt;
+    
+    &lt;section role="contentinfo"&gt;
+        &lt;h1&gt;xxx&lt;/h1&gt;
+    &lt;/section&gt;
+    
+    &lt;footer&gt;
+        &lt;h1&gt;xxx&lt;/h1&gt;
+    &lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>06D67D3F-CE89-4E7F-B99F-C0EA59CDF9EF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>html</string>
+				<key>text</key>
+				<string>HTML Boilerplate</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7ED15F48-8D16-4DFE-A063-3FDFEC59FA4A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>06D67D3F-CE89-4E7F-B99F-C0EA59CDF9EF</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>7ED15F48-8D16-4DFE-A063-3FDFEC59FA4A</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
