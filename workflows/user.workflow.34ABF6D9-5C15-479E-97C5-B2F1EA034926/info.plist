@@ -23,22 +23,22 @@
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
-	<string>scp upload to griffinbyron.com</string>
+	<string>git push to github</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>scpgriffinbyron</string>
+	<string>gitpush - COPY</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>keyword</key>
-				<string>scp griffinbyron.com</string>
+				<string>cdalfred</string>
 				<key>text</key>
-				<string>scp griffinbyron.com</string>
+				<string>move to Alfred workflows repo</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -55,7 +55,7 @@
 				<key>autopaste</key>
 				<true/>
 				<key>clipboardtext</key>
-				<string>scp -r {query} griffinbyron@griffinbyron.com:~/html/</string>
+				<string>cd /Users/admin/Library/Application\ Support/Alfred\ 2/Alfred.alfredpreferences/</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>

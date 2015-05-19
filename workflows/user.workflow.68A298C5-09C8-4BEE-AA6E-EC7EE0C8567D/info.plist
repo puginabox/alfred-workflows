@@ -23,22 +23,37 @@
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
-	<string>scp upload to griffinbyron.com</string>
+	<string>git push to github</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>scpgriffinbyron</string>
+	<string>gitpush</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>git remote add origin https://github.com/puginabox/{query}.git &amp;&amp; git remote -v &amp;&amp; git push -u origin master</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>06D67D3F-CE89-4E7F-B99F-C0EA59CDF9EF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>scp griffinbyron.com</string>
+				<string>gitpush</string>
 				<key>text</key>
-				<string>scp griffinbyron.com</string>
+				<string>Git Push to GitHub</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -46,21 +61,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>7ED15F48-8D16-4DFE-A063-3FDFEC59FA4A</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>scp -r {query} griffinbyron@griffinbyron.com:~/html/</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>06D67D3F-CE89-4E7F-B99F-C0EA59CDF9EF</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
